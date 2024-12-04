@@ -34,7 +34,8 @@ A Node.js authentication service using Express, Sequelize, and JSON Web Tokens (
 1. Clone the repository: `git clone https://github.com/ameerdev25/authentication-with-roles.git`
 2. Install dependencies: `npm install`
 3. Create a PostgreSQL database and update the `config/database.ts` file with your database credentials
-4. Run the migration script to create the users table: `npx sequelize db:migrate`
+4. Update the `scripts/insertTestData.ts` file with your credentials to insert some dummy data to the database with bcrypt incryption.
+5. Run `npm run insert-test-data` to initiate the test data insertion to database.
 
 ## Usage
 
