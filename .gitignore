@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Sequelize database files
+config/database.ts
+config/sequelize.json
+
+# Build and dist files
+build/
+dist/
+
+# Logs
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Coverage reports
+coverage/
+
+# Test reports
+test/reports/
+
+# Documentation
+docs/
+
+# Other
+*.log
+*.tmp
+*.swp
