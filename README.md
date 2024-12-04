@@ -11,8 +11,6 @@ A Node.js authentication service using Express, Sequelize, and JSON Web Tokens (
 * [Installation](#installation)
 * [Usage](#usage)
 * [API Documentation](#api-documentation)
-* [Contributing](#contributing)
-* [License](#license)
 
 ## Features
 
