@@ -1,6 +1,6 @@
 
 
-# Authentication Service
+# Authentication Service With Roles
 
 A Node.js authentication service using Express, Sequelize, and JSON Web Tokens (JWT).
 
@@ -31,14 +31,14 @@ A Node.js authentication service using Express, Sequelize, and JSON Web Tokens (
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/authentication-service.git`
+1. Clone the repository: `git clone https://github.com/ameerdev25/authentication-with-roles.git`
 2. Install dependencies: `npm install`
 3. Create a PostgreSQL database and update the `config/database.ts` file with your database credentials
 4. Run the migration script to create the users table: `npx sequelize db:migrate`
 
 ## Usage
 
-1. Start the server: `npm start`
+1. Start the server: `npm run dev`
 2. Use a tool like Postman or cURL to send requests to the API endpoints
 
 ## API Documentation
@@ -68,10 +68,3 @@ A Node.js authentication service using Express, Sequelize, and JSON Web Tokens (
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaGFuIERvZSIsImlhdCI6MTUxNjIzOTAyMn0.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
 }
 ```
-## Contributing
-
-Contributions are welcome! Please submit a pull request with a clear description of the changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
